@@ -12,6 +12,8 @@ body {
   color: #fff;
   background-color: #5995DA;  /* Blue */
   padding: 20px 0;
+  display: flex;  /* turns .menu-container into a flex-container */
+  justify-content: center; /* centers the flex-item inside the flex-container */
 }
 
 .menu {
