@@ -1,3 +1,5 @@
+/* General Styling Rules */
+
 body {
   font-family: Courier;
 }
@@ -7,6 +9,8 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Top Section */
 
 .menu-container {
   color: #fff;
@@ -46,3 +50,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+  /* Gallery Styling Rules */
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+}
